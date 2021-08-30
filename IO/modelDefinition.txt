@@ -1,0 +1,4 @@
+FLIGHTDATA: IO/parEnsembleOutput1_stage3.csv
+DOMAIN: IO/nosecone.csv
+METHOD: transient0d
+OUTFILE: output/heatingSimulation
