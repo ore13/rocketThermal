@@ -7,6 +7,7 @@ TESTFILES = $(wildcard $(SRCDIR)/*.cpp)
 TEST_EXE = $(BUILDDIR)/test
 
 test: $(TESTFILES)
+	mkdir -p $(BUILDDIR)
 	$(CC) -o $(TEST_EXE) $(TESTFILES)
 
 # Note that core files are the result of program fails...

@@ -21,7 +21,7 @@ class flightData
         pressure_ptr = &P;
         velocity_ptr = &V;
     }
-}
+};
 
 
 

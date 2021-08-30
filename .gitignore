@@ -1,4 +1,6 @@
 *.eps
 *.png
 *.svg
-./build/
+*.csv
+build/
+output/
